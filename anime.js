@@ -100,7 +100,7 @@ function takeInput() {
             console.log("Data Array Inside Timeout:", dataArr);
             fetchApi(url);
             showSuggestions();
-        }, 1000);
+        },);
     });
 }
 
